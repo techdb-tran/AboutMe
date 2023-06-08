@@ -1,5 +1,5 @@
 .top{
-    width: 100%;
+    width: 100vw;
     height: 50px;
     background-color: white;
     position: sticky;
@@ -103,17 +103,13 @@
         clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
     }
 }
-@media(max-width:768px){
-    .content h2{
-        font-size: 3em;
-    }
-}
 .home{
     margin-top: 30px;
     display: flex;
 }
 .sidebar{
     flex: 3;
+    width: 25vw;
 }
 .postList{
     flex: 9;
@@ -122,7 +118,7 @@
     display: flex;
 }
 .post{
-    width: 485px;
+    width: 33vw;
     margin: 0px 25px 40px 25px;
 }
 .postImg{
@@ -207,4 +203,29 @@
     font-size: 20px;
     margin: 10px;
     cursor: pointer;
+}
+@media(max-width:768px){
+    .content h2{
+        font-size: 3em;
+    }
+}
+@media(max-width:390px){
+    .content h2{
+        font-size: 1em;
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .postListWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .post{
+        width: 66vw;
+    }
+    .sidebar{
+        margin: auto;
+    }
 }
