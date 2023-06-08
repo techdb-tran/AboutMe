@@ -19,6 +19,11 @@
 .topCenter{
     flex: 6;
 }
+a{
+    text-decoration: none;
+    color: #085f39;
+    margin-top: 15px;
+}
 .topIcon{
     font-size: 20px;
     margin-right: 10px;
@@ -227,5 +232,13 @@
     }
     .sidebar{
         margin: auto;
+    }
+    .content{
+        position: relative;
+    }
+    .content h2{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        font-size: 8em;
     }
 }
