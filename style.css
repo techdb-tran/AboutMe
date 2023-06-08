@@ -242,3 +242,130 @@ a{
         font-size: 8em;
     }
 }
+.pool {
+    width: 100%;
+    height: 400px;
+    background-image: url('https://media.vov.vn/sites/default/files/styles/large/public/2022-05/s7_6.jpg');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+  
+.person {
+    width: 50%;
+    height: 500px;
+    background-image: url('https://ss-images.saostar.vn/wp700/2018/11/09/4026073/aquaman-arthur-curry-character-poster.jpg');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+
+.music {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWN8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+.doremi{
+    width: 40%;
+    height: 100%;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_NJ9--JT_O8vCz5IRzg8GgafKvmx1D6o6QjTqITgCkLbR3ZfKNNaY9_Cm6kUU4O7VGGoIcRIpUuyUHgE9j660FZfoQeKSlqfZTPqK4uXlkScJjL0U-CgxD_d_TKgsq0WjUO6jCpLAAE4ctXWOdLL_WB3JGrzhuABajAc7OoA9WDtFZGhO8p-yLVAbWg/w640-h640/music.jpg');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+  .life {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1517960413843-0aee8e2b3285?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+.lifeItem{
+    width: 40%;
+    height: 100%;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQBZXuXrweF6ytyd6tuirudOA9hNGnQW2wjud2w1L3L_H-2qUse7nAgfDNIhw-N18bjwby3_h0fG-twlc6_oS3hJYRAQCJFFDSW1mUKmN0Us03f2pQhh7pwB6_iuSGk4vZRGegmdtGZ-XZgNt-9XZfg4BJcK05oo7Mxv92jX6C4S1ndmwRvoXVwHuz3Q/w640-h480/life.jpg');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+
+  .book {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://d3dzzbbvj9im7s.cloudfront.net/media/wysiwyg/homepage/Shakespeare.jpg');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+.bookItem{
+    width: 40%;
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+
+  .cook {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://vietgiao.edu.vn/wp-content/uploads/2021/04/nau-an-ngon-1.jpg');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+.cookItem{
+    width: 40%;
+    height: 100%;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja_zwB941eg1kMkCPsBW-niwsKScLg9-I47bkwg5QRw6Tk8Q7zEi0XoPa5fcvV_hq0eJ9UKYEgwTbpcRVfnXO35z1dGMhDkPCGW3RAWDmNXaqdMWk9z9yOwxVmFWfqrm_2M2oOwH7iPbecVY7mLQcN5KzCHAT0buXIX6sQfVQLgPNkcS03Y619vbg2ag/w640-h640/cook.jpg');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+
+  .code {
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://cloudify.vn/wp-content/uploads/2021/11/code.jpg');
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+    margin-top: 80px;
+  }
+.codeItem{
+    width: 15%;
+    height: 100%;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirsetTrUIrfKc84vUMYE8R7KIfqeNVOFGy3Q8vJJLH8AJo90bR8F59aSL7AQj_F1UIzQx-b5o95z94S9HuSz1hjtX-Ar3K8jNPuesb9MXdS53_69ka0LYs8W-3XJo2EXp_BGYha-MqlRIhi5m5oTHjMs9BoYRc_ZrB0uAyGOe5QQkCcaIVymUP6cHkNQ/w225-h400/code.jpg');
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: swim 2s infinite;
+  }
+  @keyframes swim {
+    0%, 100% {
+      transform: translateX(-50%);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
