@@ -320,6 +320,11 @@ img{
     transform: unset;
     border: none;
 }
+a{
+    text-decoration: none;
+    color: #085f39;
+    margin-top: 15px;
+}
 @media(max-width:768px){
     .content h2{
         font-size: 3em;
